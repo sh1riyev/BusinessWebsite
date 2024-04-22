@@ -1,0 +1,68 @@
+body {
+  > .header {
+    background-color: #051d1d;
+    color: white;
+    justify-content: end;
+    display: flex;
+    width: 100%;
+    height: 30px;
+  }
+  .navbar {
+    height: 120px;
+    background-color: #0b2d2e;
+    > .container {
+      > h3 {
+        color: whitesmoke;
+      }
+      > .row {
+        > .col {
+          position: relative;
+          top: 40px;
+        }
+      }
+    }
+  }
+  > .solutions {
+    background-color: rgba(0, 128, 0, 0.566);
+    height: 300px;
+    > .container {
+      text-align:start > h3 {
+        color: white;
+      }
+      > p {
+        color: white;
+        width: 600px;
+      }
+      > button {
+        color: white;
+        background-color: #051d1d;
+        position: absolute;
+        left: 800px;
+      }
+      > img {
+        position: absolute;
+        right: 0;
+        margin-right: 120px;
+        margin-top: -105px;
+      }
+    }
+  }
+
+  > .options {
+    background-color: #051d1d;
+    color: white;
+  }
+
+  >.about{
+    background-color: #0b2d2e;
+   >.welcome{
+    >h4{
+        color: #6ca324;
+    }
+   } 
+  }
+
+  >.footer{
+    background-color:  #051d1d;;
+  }
+}
