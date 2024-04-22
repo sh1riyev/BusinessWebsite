@@ -18,13 +18,13 @@ body .navbar > .container > .row > .col {
   top: 40px;
 }
 body > .solutions {
-  background-color: rgba(0, 128, 0, 0.566);
   height: 300px;
+  background: url(../images/bg-intro.png);
 }
-body > .solutions > .container text-align:start > h3 {
+body > .solutions > .container > .text1 > h3 {
   color: white;
 }
-body > .solutions > .container > p {
+body > .solutions > .container > .text1 > p {
   color: white;
   width: 600px;
 }
@@ -42,14 +42,52 @@ body > .solutions > .container > img {
 }
 body > .options {
   background-color: #051d1d;
+}
+body > .options p {
   color: white;
+}
+body > .options h4 {
+  color: #53972a;
+}
+body > .options ul {
+  list-style: none;
 }
 body > .about {
   background-color: #0b2d2e;
 }
-body > .about > .welcome > h4 {
-  color: #6ca324;
+body > .about > .container > .row > .col h4 {
+  color: #53972a;
+}
+body > .about > .container > .row > .col p {
+  color: white;
+}
+body > .about > .container > .row > .col ul {
+  list-style: none;
+  position: relative;
 }
 body > .footer {
   background-color: #051d1d;
+}
+body > .footer > .container > .info p {
+  color: white;
+  font-size: 14px;
+  position: relative;
+  top: 12px;
+}
+body > .footer > .container > .links {
+  text-align: end;
+}
+body > .footer > .container > .links > .head1 {
+  position: relative;
+  bottom: 60px;
+  left: 170px;
+}
+body > .footer > .container > .links > a {
+  color: #53972a;
+  text-decoration: none;
+  position: relative;
+  bottom: 40px;
+}
+body > .footer > .container > .links > :nth-child(2) {
+  border-right: 1px solid white;
 }/*# sourceMappingURL=style.css.map */
